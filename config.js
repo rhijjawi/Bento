@@ -53,7 +53,7 @@ const CONFIG = {
       id: '1',
       name: 'Github',
       icon: 'github',
-      link: 'https://github.com/',
+      link: 'https://github.com/rhijjawi',
     },
     {
       id: '2',
@@ -71,7 +71,7 @@ const CONFIG = {
       id: '4',
       name: 'Calendar',
       icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      link: 'https://isuganda.managebac.com',
     },
     {
       id: '5',
@@ -99,28 +99,28 @@ const CONFIG = {
   lists: {
     firstList: [
       {
-        name: 'Weekly Mix',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Discover Weekly',
+        link: 'spotify:playlist:37i9dQZEVXcQAfPJcsmqYV',
       },
       {
         name: 'Daily Mix 1',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'spotify:playlist:37i9dQZF1E36Et3yQcnrBZ',
       },
       {
         name: 'Daily Mix 2',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'spotify:playlist:37i9dQZF1E3937V8LoAsbT',
       },
       {
         name: 'Daily Mix 3',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'spotify:playlist:37i9dQZF1E36ZZq8v14t4z',
       },
       {
         name: 'Daily Mix 4',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'spotify:playlist:37i9dQZF1E3617pCG2TYec',
       },
       {
         name: 'Daily Mix 5',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        link: 'spotify:playlist:37i9dQZF1E3626cqzxdQxU',
       },
     ],
     secondList: [
