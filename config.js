@@ -11,13 +11,13 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'Ramzi Hijjawi',
+  name: 'Ramzi Hijjawi!',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
 
   // Greetings
-  greetingMorning: 'Good morning!',
+  greetingMorning: 'Good morning',
   greetingAfternoon: 'Good afternoon,',
   greetingEvening: 'Good evening,',
   greetingNight: 'Go to Sleep!',
@@ -59,7 +59,7 @@ const CONFIG = {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://mail.google.com/mail/u/0/',
     },
     {
       id: '3',
@@ -99,19 +99,27 @@ const CONFIG = {
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
+        name: 'Weekly Mix',
         link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
       },
       {
-        name: 'Classic',
+        name: 'Daily Mix 1',
         link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
       },
       {
-        name: 'Oldies',
+        name: 'Daily Mix 2',
         link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
       },
       {
-        name: 'Rock',
+        name: 'Daily Mix 3',
+        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+      },
+      {
+        name: 'Daily Mix 4',
+        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+      },
+      {
+        name: 'Daily Mix 5',
         link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
       },
     ],
