@@ -13,6 +13,6 @@ const GRADCOUNTER = () => {
   var minutes = Math.floor((distance % _hour) / _minute);
   var seconds = Math.floor((distance % _minute) / _second);
   var miliseconds = Math.floor((distance % _second) / _msecond);
-  $('#grad').innerHTML = `${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds, and ${miliseconds} miliseconds left until you graduate!`
+  document.querySelector('#grad').innerHTML = `${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds, and ${miliseconds} miliseconds left until you graduate!`
 };
 setInterval(GRADCOUNTER, 10);
