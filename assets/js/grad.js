@@ -7,7 +7,7 @@ var _hour = _minute * 60;
 var _day = _hour * 24;
 document.querySelector('#grad').style = "color: var(--fg);font-size: small;";
 const GRADCOUNTER = () => {
-  _then = new Date('05/26/2023 20:00:00').getTime();
+  _then = new Date('05/26/2023 18:00:00').getTime();
   distance = _then - new Date();
   var days = Math.floor(distance / _day);
   var hours = Math.floor((distance % _day) / _hour);
