@@ -6,6 +6,7 @@ var _minute = _second * 60;
 var _hour = _minute * 60;
 var _day = _hour * 24;
 document.querySelector('#grad').style = "color: var(--fg);font-size: small;";
+document.querySelector('#EmCounter').style = "color: var(--fg);font-size: small;";
 const GRADCOUNTER = () => {
   _then = new Date('05/26/2023 18:00:00').getTime();
   distance = _then - new Date();
@@ -25,7 +26,7 @@ const emCounter = ()=> {
   var minutesEm = Math.floor((distanceEm % _hour) / _minute);
   var secondsEm = Math.floor((distanceEm % _minute) / _second);
   var milisecondsEm = Math.floor((distanceEm % _second) / _msecond);
-  document.querySelector('#EmCounter').innerHTML = `${daysEm} days, ${hoursEm} hours, ${minutesEm} minutes, ${secondsEm} seconds, and ${milisecondsEm} miliseconds left until you graduate!`
+  document.querySelector('#EmCounter').innerHTML = `<br>${daysEm} days, ${hoursEm} hours, ${minutesEm} minutes, ${secondsEm} seconds, and ${milisecondsEm} miliseconds left until I arrive to Bonn!`
  }
  else {
   document.querySelector('#EmCounter').innerHTML = ``;
