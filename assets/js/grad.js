@@ -19,6 +19,7 @@ const GRADCOUNTER = () => {
 };
 const emCounter = ()=> {
  if (buttonCounter > 2){
+   document.querySelector('#grad').hidden = true;
   _thenEm = new Date('06/14/2023 08:35:00').getTime();
   distanceEm = _thenEm - new Date();
   var daysEm = Math.floor(distanceEm / _day);
