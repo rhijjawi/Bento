@@ -8,14 +8,14 @@ var _day = _hour * 24;
 document.querySelector('#grad').style = "color: var(--fg);font-size: small;";
 document.querySelector('#EmCounter').style = "color: var(--fg);font-size: small;";
 const GRADCOUNTER = () => {
-  _then = new Date('05/26/2023 18:00:00').getTime();
+  _then = new Date('07/12/2023 22:45:00').getTime();
   distance = _then - new Date();
   var days = Math.floor(distance / _day);
   var hours = Math.floor((distance % _day) / _hour);
   var minutes = Math.floor((distance % _hour) / _minute);
   var seconds = Math.floor((distance % _minute) / _second);
   var miliseconds = Math.floor((distance % _second) / _msecond);
-  document.querySelector('#grad').innerHTML = `${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds, and ${miliseconds} miliseconds left until you graduate!`
+  document.querySelector('#grad').innerHTML = `${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds, and ${miliseconds} miliseconds left until I arrive to Bonn!`
 };
 const emCounter = ()=> {
  if (buttonCounter > 2){
